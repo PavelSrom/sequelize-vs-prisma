@@ -1,0 +1,28 @@
+{
+  "name": "sequelize_vs_prisma",
+  "version": "1.0.0",
+  "description": "Comparison of differences between Sequelize and Prisma for working with PostgreSQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "Pavel Srom",
+  "license": "ISC",
+  "devDependencies": {
+    "@prisma/cli": "^2.2.2",
+    "@types/sequelize": "^4.28.9",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.2.2",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.3.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.3"
+  }
+}
